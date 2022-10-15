@@ -1,11 +1,11 @@
-#include <stdio.h>
-
-
+#include <stdi
 /**
- * main -Entry point
- * 
- * Return: Always 0 (Success)
- */
+ * *main - entry point
+ * *Betty style here
+ * *Return:0
+ * *
+ * */
+
 int main(void)
 {
 		puts("\"Programming is like building a multilingual puzzle");
