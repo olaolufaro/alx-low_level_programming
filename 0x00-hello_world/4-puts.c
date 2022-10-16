@@ -1,10 +1,10 @@
-#include <stdi
+#include <stdio.h>
 /**
  * *main - entry point
  * *Betty style here
  * *Return:0
  * *
- * */
+ */
 
 int main(void)
 {
