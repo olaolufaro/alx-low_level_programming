@@ -1,14 +1,22 @@
 #include <stdio.h>
+
 /**
- *  * main-program entry point.
- *   * Return:0 if no errors, non zero if errors
- *    */
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	 char i;
+	char c;
+	int i;
 
-	  for (i = 'z'; i >= 'a'; i--)
-		    putchar(i);
-	   putchar('\n');
-	    return (0);
+	i = 0;
+	c = 'z';
+	while (i < 26)
+	{
+		putchar(c - i);
+		i++;
+	}
+	putchar(10);
+	return (0);
 }
