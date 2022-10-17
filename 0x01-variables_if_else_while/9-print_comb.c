@@ -1,25 +1,23 @@
 #include <stdio.h>
+
 /**
- *  *main-program entry point.
- *   *Return:0 success, non zero error.
- *    */
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	 int num;
+	int i;
 
-	  for (num = '0'; num <= '9'; num++)
-		   {
-			     putchar(num);
-			       if (num == '9')
-				         {
-						    break;
-						      }
-			         else
-					   {
-						      putchar(',');
-						         putchar(' ');
-							   }
-				  }
-	   putchar('\n');
-	    return (0);
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + 48);
+		if (i < 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
+	}
+	putchar(10);
+	return (0);
 }
